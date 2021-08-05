@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T12:12:41.863Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" version="14.9.4" etag="BZKDif2kRGXuAtojT5ba" type="github"><diagram id="kMPt8RmmOVygexVTCEPs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-05T12:17:20.330Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="yLmbR70Kehf2ZRbB3oSZ" version="14.9.4" type="github">
+  <diagram id="kMPt8RmmOVygexVTCEPs" name="Page-1">
+    <mxGraphModel dx="808" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-2" value="Portal Elo" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="200" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/images/customer-stories/logos/cs-servicenow-logo-tile.png.imgw.720.720.jpg;" vertex="1" parent="wQfnCfbIY-lOyUphYV1K-2">
+          <mxGeometry x="20" y="260" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://marcas-logos.net/wp-content/uploads/2020/11/Java-logo.png;" vertex="1" parent="wQfnCfbIY-lOyUphYV1K-2">
+          <mxGeometry x="49.26" y="81.61" width="101.48" height="56.79" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-22" value="Servidor de aplicação &#xa;JBOSS" style="swimlane;fontSize=9;" vertex="1" parent="wQfnCfbIY-lOyUphYV1K-2">
+          <mxGeometry x="25" y="40" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-3" value="API&#39;s DISCOVER" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-7" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0;exitY=0;exitDx=120;exitDy=50;exitPerimeter=0;" edge="1" parent="1" source="wQfnCfbIY-lOyUphYV1K-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="330" as="sourcePoint" />
+            <mxPoint x="300" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-8" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wQfnCfbIY-lOyUphYV1K-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="500" as="sourcePoint" />
+            <mxPoint x="420" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-9" value="SOAP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://marcas-logos.net/wp-content/uploads/2020/11/Oracle-logo.png;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="60" height="33.81" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-15" value="Dados de transações" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-16" value="Credenciais de autenticação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-18" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" target="wQfnCfbIY-lOyUphYV1K-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="314" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-19" value="Logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="40" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="wQfnCfbIY-lOyUphYV1K-21" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;" edge="1" parent="1" source="wQfnCfbIY-lOyUphYV1K-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="420" as="sourcePoint" />
+            <mxPoint x="500" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
